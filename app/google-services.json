@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "3576036524",
+    "firebase_url": "https://fir-reference-fa31b.firebaseio.com",
+    "project_id": "fir-reference-fa31b",
+    "storage_bucket": "fir-reference-fa31b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3576036524:android:161416d585eef77c",
+        "android_client_info": {
+          "package_name": "uk.co.jakelee.firebasereference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3576036524-c6rqmq9rbciai71v0agv0siv45srn1et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7U7XdgMji3fvW9l6h2j3KXqDbr7Q5Gfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
