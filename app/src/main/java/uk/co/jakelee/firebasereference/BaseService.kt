@@ -1,6 +1,6 @@
-package uk.co.jakelee.firebasereference.firebase
+package uk.co.jakelee.firebasereference
 
-interface Base {
+interface BaseService {
     val name: Int
     val description: Int
     val documentation: Int

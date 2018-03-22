@@ -36,6 +36,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     implementation "com.google.firebase:firebase-core:$firebaseVersion" // Analytics
+    implementation "com.google.firebase:firebase-messaging:$firebaseVersion" // Analytics
 }
 
 apply plugin: 'com.google.gms.google-services'

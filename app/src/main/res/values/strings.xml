@@ -1,11 +1,23 @@
 <resources>
     <string name="app_name">Firebase / Kotlin Reference</string>
-    <string name="name_analytics">Analytics</string>
-    <string name="desc_analytics">Analytics are used to track events.</string>
-    <string name="docs_analytics">https://firebase.google.com/docs/analytics/</string>
-    <string name="alert_analytics">Successfully sent event (with extra parameters) to Firebase!</string>
-    <string name="source_analytics">https://github.com/JakeSteam/FirebaseReference/blob/master/app/src/main/java/uk/co/jakelee/firebasereference/Analytics.kt</string>
     <string name="button_source">Source</string>
     <string name="button_documentation">Documentation</string>
     <string name="button_test">Test</string>
+
+    <string name="name_analytics">Analytics</string>
+    <string name="desc_analytics">Analytics are used to track events.</string>
+    <string name="docs_analytics">https://firebase.google.com/docs/analytics/</string>
+    <string name="source_analytics">https://github.com/JakeSteam/FirebaseReference/blob/master/app/src/main/java/uk/co/jakelee/firebasereference/Analytics.kt</string>
+    <string name="alert_analytics_event">Successfully sent event (with extra parameters) to Firebase!</string>
+    <string name="alert_analytics_property">Successfully set property for the current user!</string>
+    <string name="alert_analytics_screen">Successfully set current in-app location to Firebase!</string>
+
+    <string name="name_cloudmessaging">Cloud Messaging</string>
+    <string name="desc_cloudmessaging">Cloud messaging is used to send notifications.</string>
+    <string name="docs_cloudmessaging">https://firebase.google.com/docs/cloud-messaging/</string>
+    <string name="source_cloudmessaging">https://github.com/JakeSteam/FirebaseReference/blob/master/app/src/main/java/uk/co/jakelee/firebasereference/CloudMessaging.kt</string>
+    <string name="alert_cloudmessaging_id">Successfully retrieved Firebase ID: %s!</string>
+    <string name="alert_cloudmessaging_topic">Successfully subscribed to a Firebase topic!</string>
+    <string name="alert_cloudmessaging_send">Successfully sent a message to Firebase!</string>
+
 </resources>

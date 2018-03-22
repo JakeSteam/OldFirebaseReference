@@ -8,12 +8,12 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_main.*
-import uk.co.jakelee.firebasereference.firebase.Analytics
-import uk.co.jakelee.firebasereference.firebase.Base
+import uk.co.jakelee.firebasereference.analytics.Analytics
+import uk.co.jakelee.firebasereference.cloudmessaging.CloudMessaging
 
 
 class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
-    private var firebaseClasses: MutableList<Base> = mutableListOf()
+    private var firebaseClasses: MutableList<BaseService> = mutableListOf()
     private var firebaseNames: MutableList<String> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     private fun createServiceLists() {
         firebaseClasses.add(Analytics(this))
+        firebaseClasses.add(CloudMessaging(this))
         firebaseClasses.forEach {
             firebaseNames.add(getString(it.name))
         }
